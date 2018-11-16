@@ -9,6 +9,9 @@ name: Hawk-Pool
 steps:
 - script: echo Hello, world!
   displayName: 'Run a hellword script'
+  
+- script: bash 123.sh
+  displayName: 'Run 123.sh from github'
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
